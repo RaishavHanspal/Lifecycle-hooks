@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.pad10{
+    padding: 10px;
+}
+
+.flex-cont{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.col{
+    width: 50%;
+    height: 100vh;
+    overflow:auto;
+}
